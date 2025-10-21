@@ -1,0 +1,8 @@
+services:
+  web:
+    image: hello-website
+    container_name: hello-website-container
+    ports:
+      - "3000:80"
+    restart: unless-stopped
+
